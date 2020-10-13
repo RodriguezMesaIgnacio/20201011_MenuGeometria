@@ -101,6 +101,4 @@ const areaRectangulo = (b:number, a:number) => {
     res=a*b
     return res
 }
-
-const multiplicar = (n1: number, n2: number): number => n1 * n2
 main()
