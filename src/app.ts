@@ -1,9 +1,9 @@
-import { menuPral } from '../vistas/menu'
+import { menu } from '../vistas/menu'
 import { leerTeclado } from '../vistas/lecturaTeclado'
 const main = async () => {
     let n: number
     do {
-        n = await menuPral()
+        n = await menu()
         switch(n){
             case 1:
                 console.log('Calculando perímetro y área de un TRIÁNGULO')

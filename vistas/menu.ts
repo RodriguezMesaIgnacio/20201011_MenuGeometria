@@ -1,6 +1,6 @@
 import { leerTeclado } from '../vistas/lecturaTeclado'
 
-export const menuPral = async () => {
+export const menu = async () => {
     let n: number
     console.log('\n')
     console.log('1.- TRIÁNGULO')
