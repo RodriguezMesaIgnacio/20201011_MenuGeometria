@@ -80,13 +80,13 @@ const areaCuadrado = (lado:number) => {
 
 const perimetroCirculo = (radio:number) => {
     let res=0
-    res=2*radio*3,14
+    res=2*radio*Math.PI
     return res
 }
 
 const areaCirculo = (radio:number) => {
     let res=0
-    res=(radio*radio)*3,14
+    res=(radio*radio)*Math.PI
     return res
 }
 
